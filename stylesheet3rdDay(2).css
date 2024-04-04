@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(197, 186, 186);
+}
+body{
+    min-height: 50vh;
+    max-height: 100vw;
+    background-color: beige;
+
+}
+.p3{
+    background-color:rgb(241, 119, 151) ;
+    /* width: 100px;
+    height: 100px;
+     */
+    /* position: static, relative, absolute */
+    top:0px;
+    left:100px;
+padding: 10px;
+}
+/* .c3{
+background-color: rgb(191, 146, 232);
+
+width: 100px;
+    height: 100px;
+    position: absolute;
+    
+} */

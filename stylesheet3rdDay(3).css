@@ -1,0 +1,84 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+/* .parent{
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    background-color: aquamarine;
+   height:600px;
+   width: 600px;
+    text-align: center;
+}
+@media(800px <=width <=1000px){
+.parent{
+    background-color: blue;
+    h2{
+        background-color: rgb(194, 215, 74);
+    }
+}
+}
+@media(200px <= width <=400px){
+.parent{
+    background-color: blueviolet;
+    width:100px;
+    height: 100px;
+}
+h2{
+    background-color: yellow;
+    width:200px;
+    height:200px;
+}
+} */
+/* BUTTON */
+.btn{
+    position: absolute;
+    margin: auto;
+    /* top:300px;              we remove it when we do annimation
+    left:300px; */
+    padding:8px 16px;
+    border-radius:8px;
+    border:none;
+    background-color: chocolate;
+    /* transition-property: scale background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms; */
+    animation-name: btn;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+}
+.btn:hover{
+background-color: blueviolet;
+/* cursor:pointer;
+scale:1.5; */
+}
+@keyframes btn{
+/* from{
+top:20px;
+left:20px;
+}
+to{
+top:20px;
+left:400px;
+} */
+0%{
+    top:20px;
+    left:40px;
+}
+30%{
+    top:20px;
+    left:500px;
+
+}
+60%{
+    top:400px;
+    left:500px;
+}
+100%{
+    top:400px;left:20px;
+}
+
+}

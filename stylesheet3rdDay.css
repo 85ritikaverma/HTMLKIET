@@ -1,0 +1,53 @@
+.parent{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: rgb(110, 240, 240); */
+    /* grid-template-rows: 50px 50px 50px; */
+grid-auto-rows: 50px; 
+column-gap: 10px;
+row-gap: 10px;
+background-color: blue;
+border-color: 4px solid blue;
+}
+.child{
+    background-color: rgb(233, 172, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(115, 231, 192);
+}
+.menu{
+grid-column-start: 2;
+grid-column-end: 4;
+}
+.main{
+    grid-row-start: 2 ;
+    grid-row-end: 4;
+}
+.parent1{
+    display:grid;
+    grid-auto-rows: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.child1{
+
+}
+.parent2{
+    /* background-color: rgb(194, 227, 119); */
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(50px,100px));
+   /* Repeate function mai do parameters ki need hoti h */
+}
+.child2{
+border: 1px solid red;
+background-color: antiquewhite;
+min-height: 50px;
+max-height: 100px;
+
+}
